@@ -1,0 +1,12 @@
+<template>
+  <require from="resources/elements/trumbowyg-icons/trumbowyg-icons"></require>
+  <require from="trumbowyg/ui/trumbowyg.css"></require>
+
+  <div css="width:1000px">
+    <trumbowyg-icons></trumbowyg-icons>
+    <trumbowyg-editor
+      value.bind="content"
+      options.bind="editorConfig"
+    ></trumbowyg-editor>
+  </div>
+</template>
